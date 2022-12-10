@@ -1,0 +1,350 @@
+.navbar {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  align-items: center;
+}
+
+.navbar div{
+  width: 100%;
+  text-align: center;
+}
+
+.navbar a {
+  margin: 0rem 1.1rem;
+  font-size: 2rem;
+}
+
+.navbar-far-right-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.logo-sm{
+  width: 75%;
+  padding: 0.9rem;
+}
+
+.home-page-container {
+  overflow-y: scroll;
+  height: 85vh;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.landing-page-container {
+  background-color: rgb(242,244,248);
+  padding: 3.3rem;
+  height: 75vh;
+}
+
+.landing-page-container h1{
+  padding: 1rem 0rem;
+  font-size: 4rem; 
+  font-weight: 600;
+  text-align: center;
+}
+
+.landing-page-container h2{
+  padding: 0.5rem 0rem;
+  margin-top: 2.2rem;
+  font-size: 2.8rem; 
+  font-weight: 300;
+  text-align: center;
+}
+
+.landing-page-container form{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3rem 0rem;
+}
+
+.landing-page-container input{
+  font-size: 3rem;
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid rgb(214,214,214);
+}
+
+.landing-page-container button{
+  font-size: 3rem;
+  background-color: #5AA1D4;
+  color: white;
+  border-radius: 0rem 3rem 3rem 0rem;
+  padding: 1rem;
+  border: 1px solid rgb(214,214,214);
+}
+
+.blue-header {
+  padding: 3rem 1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #59A0D2;
+  text-align: center;
+  font-size: 3.3rem;
+}
+
+.large-header {
+  font-weight: 300;
+  font-size: 2.8rem;
+  text-align: center;
+  padding: 1.5rem;
+  letter-spacing: 1px;
+  margin: 2rem 0rem;
+}
+
+.blue-link {
+  padding: 0.5rem 1rem;
+  font-size: 2.9rem;
+  text-align: center;
+  color: #59A0D2;
+  text-decoration: underline;
+}
+
+.past-clients-container {
+  /* display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3rem; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  margin-bottom: 8rem;
+}
+
+.past-clients-container img{
+  width: 75%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+}
+
+.founders-container {
+  display: flex;
+  background-color: #272D36;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  align-items: center;
+}
+
+.founders-container img{
+  display: none;
+  margin: auto;
+}
+
+.founder-info-container {
+  width: 100vw;
+  height: 20vw;
+  font-size: 2rem;
+  margin: auto;
+  margin-top: 1.2rem;
+  font-family: monospace;
+}
+
+.callto-action-container {
+  padding: 6rem;
+}
+
+.callto-action-container h3 .blue-header{
+ font-size: 0.9rem;
+}
+
+.callto-action-container h3{
+  margin-bottom: 2rem;
+}
+
+.cards-sections {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-sections section{
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+}
+
+.cards-sections section div{ 
+  padding: 3rem;
+}
+
+.cards-sections img{
+  width: 65vw;
+  margin: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 50px -12px rgba(0,0,0,0.75);
+}
+
+.cards-sections h1 {
+  font-weight: 600;
+  font-size: 2.8rem;
+  letter-spacing: 1px;
+  text-align: left;
+  padding-bottom: 0.7rem;
+}
+
+.cards-sections p {
+  font-weight: 200;
+  font-size: 2.3rem;
+  text-align: left;
+  padding-top: 0.8rem;
+}
+
+.cards-sections .reverse-card {
+  flex-direction: column-reverse;
+}
+/* 3 side by side cards*/
+.cards-container {
+  padding: 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.each-card-container {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  margin: 2rem;
+  font-size: 2.7rem;
+}
+
+.btns-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.blue-btn {
+  background-color: #59A0D2;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  color: white;
+  font-size: 3rem;
+}
+
+.call-to-action-header {
+  font-size: 2.2rem;
+}
+@media screen and (min-device-width: 600px) {
+  .navbar {
+     flex-direction: row;
+     padding: 0rem 2rem;
+  }
+  .navbar a {
+    font-size: 1.3rem;
+    width: 100%;
+  }
+  .navbar .small-a {
+    font-size: 0.7rem;
+  }
+  .navbar div{
+    width: 68%;
+    display: flex;
+  }
+  .logo-sm{
+    width: 14rem;
+  }
+  .landing-page-container {
+    padding: 3.3rem;
+    display: grid;
+    grid-template-columns: 1.3fr 0.7fr;
+    height: 66vh;
+  }
+  .landing-page-container h1{
+    font-size: 2.8rem; 
+    font-weight: 600;
+    text-align: center;
+  }
+  .landing-page-container h2{
+    margin-top: 2.2rem;
+    padding: 0rem 2rem 0px 1rem;
+    font-size: 1.5rem; 
+    font-weight: 300;
+    text-align: justify;
+  }
+  .landing-page-container form{
+    display: flex;
+    justify-content: start;
+    margin: 1rem;
+  }
+  .landing-page-container input{
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    text-align: center;
+    border-right: 0px;
+  }
+  .landing-page-container video {
+    width: 35vw;
+    margin: auto;
+  }
+  .landing-page-container button{
+    font-size: 0.8rem;
+    padding: 1rem;
+    border-left: 0px;
+  }
+  .large-header {
+    font-size: 2.3rem;
+    padding: 0.8rem 0rem;
+  }
+  .blue-header {
+    padding: 1rem 0rem;
+    font-size: 1.3rem;
+  }
+  .blue-link {
+    padding: 1rem 0rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  section {
+    padding: 2rem 1rem 1rem 1rem;
+  }
+  .founder-info-container {
+    width: 45vw;
+    padding: 2rem 0.3rem 0rem 3rem;
+    font-size: 1.5rem;
+  }
+  .founders-container img{
+    display:inline;
+    width: 35vw;
+    height: auto;
+  }
+  .cards-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .each-card-container {
+    width: 30vw;
+    height: 35rem;
+    margin: 3rem;
+    font-size: 1rem;
+  }
+  .cards-sections section{
+    flex-direction: row;
+  }
+  .cards-sections img{
+    width: 40vw;
+  }
+  .cards-sections h1 {
+    font-size: 1.8rem;
+  }
+  .cards-sections p {
+    font-size: 1.3rem;
+  }
+  .cards-sections .reverse-card {
+    flex-direction: row;
+  }
+  .btns-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .blue-btn {
+    font-size: 1rem;
+  }
+  .call-to-action-header {
+    font-size: 1.2rem;
+  }
+}
