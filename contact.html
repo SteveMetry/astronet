@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="images/siteIcon.png">
+  <title>Astronet | Create Reality</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="styles/components.css" rel="stylesheet"/>
+  <link href="styles/global.css" rel="stylesheet"/>
+  <meta name="author" content="Steve & Edward">
+</head>
+<body>
+  <nav class="navbar">
+    <img src="images/logo.png" class="logo-sm" alt="logo">
+    <div class="font-light">
+      <a href="">How we Work</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="results.html">Customer Results</a>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </nav>
+  <main>
+    <div class="main-contact-container">
+      <div class="site-info-container">
+        <h1>Contact Us.</h1>
+        <p>
+          <h5>Email:<a href="mailto:hello@astronet.com?subject=contact" class="underline">hello@estatenorth.com</a></h5> 
+          <h5>Phone:<a href="tel:+64211808620" class="underline">+64 21 180 8620</a></h5>
+        </p>
+        <div class="social-media-icons">
+          <a href="https://www.facebook.com/profile.php?id=100088271957557"><img src="images/facebook-icon.png" alt="Facebook Icon"></a>
+          <img src="images/instagram-icon.png" alt="Instagram Icon">
+        </div>
+      </div>
+      <form id="contactForm" class="contact-form p-6 m-auto" onsubmit="submitQuery(event, 'contactForm')">
+        <div class="font-thin">
+          <input
+            required  
+            placeholder="Full Name"
+            name="name"
+            class="
+              form-control
+              block
+              w-full
+              px-3
+              py-1.5
+              text-base
+              font-normal
+              border
+              border-solid
+              border-gray-300
+              rounded
+              transition
+              ease-in-out
+              m-0
+              mb-6
+              focus:border-blue-600
+              focus:outline-none
+            " 
+          />
+          <input 
+            placeholder="Subject"
+            name="subject"
+            id="subject"
+            class="
+              form-control
+              block
+              w-full
+              px-3
+              py-1.5
+              text-base
+              font-normal
+              border
+              border-solid
+              border-gray-300
+              rounded
+              transition
+              ease-in-out
+              m-0
+              mb-6
+              focus:border-blue-600
+              focus:outline-none
+            " 
+          />
+          <textarea
+            required
+            placeholder="Body"
+            name="body"
+            id="body"
+            rows="3"
+            class="
+              form-control
+              block
+              w-full
+              px-3
+              py-1.5
+              text-base
+              font-normal
+              border
+              border-solid
+              border-gray-300
+              rounded
+              transition
+              ease-in-out
+              m-0
+              mb-6
+              focus:border-blue-600
+              focus:outline-none
+            " 
+          ></textarea>
+        </div>
+        <button
+          type="submit"
+          class="main-btn bg-black white m-auto"
+        >
+          Send
+        </button>
+      </form>
+    </div>
+  </main>
+  <script src="components.js"></script>
+</body>
+</html>
