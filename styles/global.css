@@ -11,11 +11,14 @@
   width: 100%;
   display: flex;
   text-align: center;
+  margin: 1.2rem 0.8rem;
+  padding: 0.3rem;
 }
 
 .navbar a {
   margin: auto;
   font-size: 2rem;
+  font-weight: 400;
 }
 
 .navbar-far-right-container{
@@ -123,8 +126,8 @@
 
 .founders-container {
   display: flex;
-  background-color: #272D36;
-  color: white;
+  background-color: rgb(247,249,249);
+  color: black;
   text-align: center;
   padding: 1rem;
   align-items: center;
@@ -227,12 +230,6 @@
   margin-bottom: 2rem;
 }
 
-.main-contact-container {
-  display: grid;
-  grid-template-rows: 0.4fr 0.6fr;
-  height: 80vh;
-  margin-bottom: 3rem;
-}
 .site-info-container {
   display: flex;
   flex-direction: column;
@@ -277,6 +274,53 @@
   font-weight: 300;
   height: 5rem;
   width: 12rem;
+}
+
+.main-contact-form {
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+  width: 90vw;
+  letter-spacing: 1px;
+}
+
+.main-contact-form h1{
+  font-size: 6rem;
+  font-weight: 600;
+}
+.main-contact-form h2 {
+  font-size: 4rem;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.main-contact-form p {
+  font-weight: 200;
+  margin: 1rem;
+  font-size: 3rem;
+}
+.main-contact-form h3 {
+  font-size: 3rem;
+}
+.main-contact-form button {
+  background-color: black;
+  font-family: monospace;
+  color: white;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 1.4rem;
+  width: 75vw;
+  font-size: 2.5rem;
+  border-radius: 0.2rem;
+}
+.block-contact-header {
+  width: 100vw;
+  background-color: black;
+  color: white;
+  font-size: 4rem;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 4rem;
 }
 @media screen and (min-device-width: 600px) {
   .navbar {
@@ -396,10 +440,6 @@
   .call-to-action-header {
     font-size: 1.2rem;
   }
-  .main-contact-container {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-  }
   .site-info-container {
     height: auto;
     justify-content: space-between;
@@ -432,11 +472,40 @@
     justify-content: space-evenly;
     margin-bottom: 3rem;
   }
-  
   .past-clients-container img{
     width: 15%;
     aspect-ratio: 3/2;
     object-fit: contain;
     mix-blend-mode: color-burn;
+  }
+  .main-contact-form { 
+    width: 70vw;
+  }
+  .main-contact-form h1{
+    font-size: 3rem;
+  }
+  .main-contact-form h2 {
+    font-size: 2rem;
+    line-height: 46px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .main-contact-form p {
+    font-size: 1.5rem;
+  }
+  .main-contact-form h3 {
+    font-size: 1.4rem;
+  }
+  .main-contact-form button {
+    width: 25vw;
+    font-size: 1rem;
+  }
+  .home-page-container {
+    height: 88vh;
+  }
+  .large-img {
+    width: 75vw;
+    margin: auto;
   }
 }

@@ -1,0 +1,163 @@
+body {
+  background-color: rgb(242,244,248);
+}
+
+.main-pricing-container {
+  margin: auto;
+}
+.main-pricing-container h1 {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 1rem;
+}
+.main-pricing-container h4 {
+  text-align: center;
+  font-size: 2.6rem;
+  color: #9B9EA9;
+  margin-bottom: 2rem;
+}
+.pricing-cards {
+  padding: 0.5rem;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  justify-items: center;
+}
+
+.each-pricing-card {
+  padding: 1.5rem 2.3rem;
+  padding-bottom: 2.6rem;
+  border: 1px solid #fafafa;
+  background-color: white;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.13);
+  border-radius: 0.3rem;
+  height: 60vh;
+  width: 90vw;
+}
+
+.each-pricing-card h1{
+  font-size: 3.7rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.each-pricing-card h2{
+  font-weight: 300;
+  font-size: 2.2rem;
+}
+.each-pricing-card h3{
+  padding: 0.5rem;
+  margin-bottom: 0.2rem;
+  font-size: 2rem;
+}
+.each-pricing-card h4{
+  color: black;
+  font-size:4rem;
+  margin-bottom: 0.1rem;
+  letter-spacing: 1px;
+  font-family: monospace;
+}
+.each-pricing-card button{
+  background-color: #71CCA2;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 1.3rem;
+  width: 80%;
+  font-size: 2.7rem;
+}
+.each-pricing-card ul{
+  margin: 2.3rem 1rem;
+  text-align: left;
+}
+.each-pricing-card li{
+  font-weight:300;
+  font-size: 2.3rem;
+}
+.each-pricing-card strong{
+ font-weight: 600;
+}
+
+@media screen and (min-device-width: 600px) {
+  .main-pricing-container {
+    margin: 1rem 2rem;
+  }
+  .main-pricing-container h1 {
+    font-size: 3.2rem;
+    letter-spacing: 1px;
+    padding: 1rem;
+  }
+  .main-pricing-container h4 {
+    text-align: center;
+    font-size: 1.7rem;
+    color: #9B9EA9;
+    margin-bottom: 2rem;
+  }
+  .pricing-cards {
+    padding: 0.5rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .each-pricing-card {
+    padding: 1.5rem 2.3rem;
+    padding-bottom: 2.6rem;
+    border: 1px solid #fafafa;
+    background-color: white;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.13);
+    border-radius: 0.3rem;
+    height: 40rem;
+    width: 30vw;
+  }
+
+  .each-pricing-card h1{
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+  .each-pricing-card h2{
+    font-weight: 300;
+    font-size: 1.1rem
+  }
+  .each-pricing-card h3{
+    letter-spacing: 1px;
+    padding: 0.5rem;
+    margin-bottom: 0.2rem;
+    font-size: 0.8rem;
+  }
+  .each-pricing-card h4{
+    color: black;
+    font-size:1.4rem;
+    margin-bottom: 0.1rem;
+    letter-spacing: 1px;
+    font-family: monospace;
+  }
+  .each-pricing-card button{
+    background-color: #71CCA2;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 1.3rem;
+    width: auto;
+    font-size: 1rem;
+  }
+  .each-pricing-card ul{
+    text-align: left;
+  }
+  .each-pricing-card li{
+    font-weight:300;
+    font-size: 1rem;
+  }
+  .each-pricing-card strong{
+  font-weight: 600;
+  }
+}
