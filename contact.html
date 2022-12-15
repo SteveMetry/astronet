@@ -9,16 +9,18 @@
 </head>
 <body>
   <nav class="navbar">
-    <img src="images/logo.png" class="logo-sm" alt="logo">
+    <a href="index.html">
+      <img src="images/logo.png" class="logo-sm" alt="logo">
+    </a>
     <div class="font-light">
-      <a href="how-we-work.html">How we Work</a>
-      <a href="pricing.html">Pricing</a>
-      <a href="results.html">Customer Results</a>
       <a href="index.html">Home</a>
+      <a href="choose-look.html">Choose a Design</a>
+      <a href="results.html">Clients Results</a>
+      <a href="pricing.html">Pricing</a>
       <a href="contact.html">Contact Us</a>
     </div>
   </nav>
-  <main>
+  <main class="contact-us-container">
     <header class="block-contact-header">
       Contact Us
     </header>
@@ -56,10 +58,10 @@
         This button will take your to Our Calandly 
         to schedule the timing that works for you</p>
     </div>    
+    <h1 class="large-header">Send Email</h1>
     <form id="contactForm" class="contact-form p-6 m-auto" onsubmit="submitQuery(event, 'contactForm')">
         <div class="font-thin">
-          <input
-            required  
+          <input  
             placeholder="Full Name"
             name="name"
             class="
@@ -107,7 +109,6 @@
             " 
           />
           <textarea
-            required
             placeholder="Body"
             name="body"
             id="body"

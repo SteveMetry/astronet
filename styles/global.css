@@ -30,11 +30,12 @@
 .logo-sm{
   width: 75%;
   padding: 0.9rem;
+  margin: auto;
 }
 
 .home-page-container {
   overflow-y: scroll;
-  height: 85vh;
+  height: 82vh;
   text-align: center;
 }
 
@@ -61,7 +62,7 @@
 
 .landing-page-container form{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin: 3rem 0rem;
 }
 
@@ -73,11 +74,11 @@
 }
 
 .landing-page-container button{
-  font-size: 3rem;
+  font-size: 2rem;
   background-color: #5AA1D4;
   color: white;
   border-radius: 0rem 3rem 3rem 0rem;
-  padding: 1rem;
+  padding: 0.5rem;
   border: 1px solid rgb(214,214,214);
 }
 
@@ -108,9 +109,6 @@
 }
 
 .past-clients-container {
-  /* display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
@@ -158,6 +156,7 @@
 .cards-sections {
   display: flex;
   flex-direction: column;
+  overflow-y: scroll;
 }
 
 .cards-sections section{
@@ -260,8 +259,15 @@
   flex-direction: column;
 }
 .contact-form input {
+  padding: 1rem;
   font-size: 3rem;
   height: 5rem;
+  text-align: center;
+}
+.contact-form textarea {
+  padding-top: 3rem;
+  font-size:3rem;
+  text-align: center;
 }
 .contact-form .main-btn {
   margin: auto;
@@ -269,11 +275,11 @@
 .main-btn {
   background-color: black;
   color: white;
-  font-size: 1.2rem;
+  font-size: 2rem;
   border-radius: 0.4rem;
   font-weight: 300;
   height: 5rem;
-  width: 12rem;
+  width: 35vw;
 }
 
 .main-contact-form {
@@ -322,6 +328,60 @@
   text-align: center;
   padding: 4rem;
 }
+.console-products::-webkit-scrollbar {
+  display: none;
+}
+.console-products {
+  display: grid;
+  width: 100vw;
+  overflow-x: scroll;
+  align-self: center;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none; 
+  justify-items: center;
+}
+.scroll-btns-container {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.scroll-btn {
+  width: 5rem;
+  height: 3rem;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  color: white;
+  box-shadow: 0px 0px 50px 10px rgb(235,235,235);
+  border: 1px solid rgb(214, 214, 214);
+  background-color: rgb(46, 121, 229);
+  display: none;
+}
+
+.console-product-card {
+  padding: 1rem;
+  justify-items: center;
+  width:70vw;
+  height: 30vh;
+}
+.console-product-card p{
+  font-size: xx-large;
+}
+  .green-tick {
+  color: white;
+  background-color: green;
+  padding: 0.3rem 0.6rem;
+  margin: 0rem 0.4rem;
+  border-radius: 50%;
+  font-size: 2rem;
+}
+.contact-us-container {
+  height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
 @media screen and (min-device-width: 600px) {
   .navbar {
      flex-direction: row;
@@ -329,13 +389,12 @@
   }
   .navbar a {
     font-size: 1.3rem;
-    width: 100%;
   }
   .navbar .small-a {
     font-size: 0.7rem;
   }
   .navbar div{
-    width: 68%;
+    width: 100%;
     display: flex;
   }
   .logo-sm{
@@ -461,7 +520,7 @@
   }
   .contact-form {
     width: 100%;
-    max-width: 400px;
+    max-width: 40vw;
   }
   .contact-form input {
     font-size: 1rem;
@@ -507,5 +566,46 @@
   .large-img {
     width: 75vw;
     margin: auto;
+  }
+}
+@media screen and (min-device-width: 650px) {
+  .console-product-card { 
+    width:30vw;
+    height: auto;
+  }
+  .scroll-btn {
+    display: block;
+  }
+  .console-products {
+    display: -webkit-inline-box;
+  }
+  .contact-form textarea {
+    font-size:1.1rem;
+    padding-top: 1rem;
+  }
+  .main-btn {
+    width: 12rem;
+    font-size: 1.2rem;
+  }
+  .green-tick {
+    font-size: 0.5rem;
+  }
+  .home-page-container {
+    height: 87vh;
+  }
+  .contact-us-container {
+    height: 87vh;
+  }
+  .console-product-card {
+    border-radius: 0.8rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 50px 10px rgb(235,235,235);
+    border: 1px solid rgb(214, 214, 214);
+  }
+  .console-product-card p{
+    font-size: large;
+  }
+  .green-tick {
+    padding: 0.3rem 0.4rem;
   }
 }

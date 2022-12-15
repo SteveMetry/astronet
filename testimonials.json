@@ -1,0 +1,50 @@
+[
+    {
+      "date":"1 November 2022",
+      "companyName":"Kris Lindahl Real Estate",
+      "rating":"5 ☆",
+      "img":"https://assets-global.website-files.com/5c87ecb83f656c685ed4cf87/610015f6f86e0f96104a37c4_Kris%20Lindahl.png",
+      "clientName":"Kris Lindahl",
+      "message":"The more simple you can make things, the better your process will be. It will allow agents to do more transactions and accomplish everything they want in their life."
+    },
+    {
+      "date":"13 April 2022",
+      "companyName":"Engel & Volkers",
+      "rating":"5 ☆",
+      "img":"https://assets-global.website-files.com/5c87ecb83f656c685ed4cf87/6100160e146f963dffb00037_Christian%20Ross.png",
+      "clientName":"Christian Ross",
+      "message":"The first thing I tell people now is, get your website together, and make it a part of your business every single day."
+    },
+    {
+      "date":"17 October 2021",
+      "companyName":"Berry Jenkins Real Estate",
+      "rating":"5 ☆",
+      "img":"https://assets-global.website-files.com/5c87ecb83f656c685ed4cf87/6100162ac6617d4eca0b7f0b_Barry%20Jenkins%20(2).png",
+      "clientName":"Barry Jenkins",
+      "message":"With a company like AstroStar Designs, there is no reason you can’t buy back a significant amount of time back from your business and invest into personal life."
+    },
+    {
+      "date":"11 August 2021",
+      "companyName":"Wemert Group",
+      "rating":"5 ☆",
+      "img":"https://assets-global.website-files.com/5c87ecb83f656c685ed4cf87/61001639a16e80a7ead09a3b_Emily%20Smith.png",
+      "clientName":"Emily Smith",
+      "message":"We call Astrostar Designs when we are in trouble. we are selfish we use them as our Emergency Response Team."
+    },
+    {
+      "date":"26 July 2021",
+      "companyName":"Fetherstone &Co",
+      "rating":"5.2 ☆",
+      "img":"https://assets-global.website-files.com/5c87ecb83f656c685ed4cf87/61001de5b8cdcc8a5193a02f_Case%20Study%20Columns%20500x333.png",
+      "clientName":"Will Featherstone",
+      "message":"We call Astrostar Designs when we are in trouble. we are selfish we use them as our Emergency Response Team."
+    },
+    {
+      "date":"1 June 2021",
+      "companyName":"Bramett",
+      "rating":"5 ☆",
+      "img":"https://assets-global.website-files.com/5c87ecb83f656c685ed4cf87/61001661c6617d45960b7f37_Eric%20Bramlett.png",
+      "clientName":"Eric Bramlett",
+      "message":"We’ve created a structure that people can grow in and when they hit a ceiling, they can grow some more."
+    }
+]
