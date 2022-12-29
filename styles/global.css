@@ -608,4 +608,12 @@
   .green-tick {
     padding: 0.3rem 0.4rem;
   }
+
+  .landing-page-container {
+    position: relative;
+  }
+
+  .landing-page-container .blue-btn{
+    position: absolute;
+  }
 }
